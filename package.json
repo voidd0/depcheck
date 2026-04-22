@@ -1,0 +1,50 @@
+{
+  "name": "@v0idd0/depcheck",
+  "version": "2.0.0",
+  "description": "depcheck — dependency scanner. 47-entry offline CVE database (incl. 2024 and supply-chain), unused/missing deps via static import analysis, transitive deps via package-lock.json, Python support (requirements.txt / pyproject.toml). Free forever from vøiddo.",
+  "main": "src/scanner.js",
+  "bin": {
+    "depcheck": "./bin/depcheck.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "security",
+    "audit",
+    "vulnerabilities",
+    "cve",
+    "dependencies",
+    "unused",
+    "missing",
+    "npm",
+    "pip",
+    "python",
+    "supply-chain",
+    "cli",
+    "voiddo"
+  ],
+  "author": "vøiddo <support@voiddo.com> (https://voiddo.com)",
+  "license": "MIT",
+  "homepage": "https://voiddo.com/tools/depcheck/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voidd0/depcheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/voidd0/depcheck/issues",
+    "email": "support@voiddo.com"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
