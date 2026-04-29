@@ -1,6 +1,6 @@
 {
   "name": "@v0idd0/depcheck",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "depcheck — dependency scanner. 47-entry offline CVE database (incl. 2024 and supply-chain), unused/missing deps via static import analysis, transitive deps via package-lock.json, Python support (requirements.txt / pyproject.toml). Free forever from vøiddo.",
   "main": "src/scanner.js",
   "bin": {
@@ -42,9 +42,18 @@
     "node": ">=14"
   },
   "files": [
-    "bin",
-    "src",
-    "README.md",
-    "LICENSE"
-  ]
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "funding": {
+    "type": "individual",
+    "url": "https://voiddo.com/contact/"
+  }
 }
