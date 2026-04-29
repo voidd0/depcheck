@@ -1,5 +1,10 @@
 # depcheck
 
+[![npm version](https://img.shields.io/npm/v/@v0idd0/depcheck.svg?color=A0573A)](https://www.npmjs.com/package/@v0idd0/depcheck)
+[![npm downloads](https://img.shields.io/npm/dw/@v0idd0/depcheck.svg?color=1F1A14)](https://www.npmjs.com/package/@v0idd0/depcheck)
+[![License: MIT](https://img.shields.io/badge/license-MIT-A0573A.svg)](LICENSE)
+[![Node ≥14](https://img.shields.io/badge/node-%E2%89%A514-1F1A14)](package.json)
+
 **Dependency scanner for humans.** Find known CVEs, unused packages wasting install time, and missing imports that'll crash production — all offline, no network, no API keys.
 
 Free forever gift from [vøiddo](https://voiddo.com).
